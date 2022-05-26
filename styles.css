@@ -431,6 +431,10 @@ body.light-theme{
   transition: .4s;
 }
 
+.button a{
+  color: var(--body-color);
+}
+
 .button:hover{
   background-color: var(--first-color-alt);
   color: var(--body-color);
@@ -812,7 +816,6 @@ body.light-theme{
   resize: none;
 }
 
-
 /*=============== FOOTER ===============*/
 .footer{
   background-color: var(--first-color);
@@ -906,6 +909,15 @@ body.light-theme{
     border-radius: 5rem;
   }
 
+  .about__el{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
   .home_buttons{
     flex-direction: column;
   }
@@ -972,6 +984,15 @@ body.light-theme{
     padding: .4rem;
     display: flex;
     border-radius: 5rem;
+  }
+
+  .about__el{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
   }
 
   .home_buttons{
@@ -1052,6 +1073,15 @@ body.light-theme{
     border-radius: 5rem;
   }
 
+  .about__el{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about_info{
     grid-template-columns: repeat(3, 140px);
     justify-content: center;
@@ -1118,6 +1148,15 @@ body.light-theme{
     transition: .4s;
     backdrop-filter: blur(10px);
   }
+
+  .about__el{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: center;
+  }
   
   .nav_list{
     display: flex;
@@ -1148,6 +1187,15 @@ body.light-theme{
 .nav_menu{
     padding: 1rem 2.5rem;
     width: 60%;
+}
+
+.about__el{
+  width: 55%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
   .container{
     margin-left: auto;
